@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <style>
+        header{
+    position: relative;
+    height: 120px;
+}
+.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+    margin-top: 70px;
+}
+.shopping-mall>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px rgb(15, 16, 15);
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0;
+}
+.shopping-mall>h5{
+   margin-top: 5px;
+   letter-spacing: 0.5px;
+}
+.poly-cart{
+    margin-top: 5px;
+   
+}
+.poly-cart ul{
+    list-style-type: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+.poly-cart img{
+    
+    margin-left: 15px;
+}
+.poly-cart input{
+    margin-left: 15px;
+    width: 230px;
+}
+
+
+.nav-item{margin-right: 20px;}
+.btnsuaxoa button{
+  background-color: blue;
+  color: beige;
+  border-radius: 5px;
+
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container" >
+    <header class="row">
+        <div class="col-sm-7 shopping-mall">
+            <h1>GAMING STORE</h1>
+            <h5>THE CENTER POINT OF THE PROFESSIONAL PROGRAMMING</h5>
+        </div>
+        
+
+
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+    
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/themsanpham"><span class="glyphicon glyphicon-th-list"></span> Thêm sản phẩm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dssanphams/danhsachsanpham"> <span class="glyphicon glyphicon-th-list"></span>Danh sách sản phẩm</a>
+            </li>
+            
+             
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-user"></span>
+                 Tài khoản
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/dsnguoidungs/danhsachnguoidung">Quản lí tài khoản </a>
+          
+                <a class="dropdown-item" href="/">Đăng xuất</a>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav reverser">
+        <li class="nav-item">
+            <a href="#" class="nav-link active" >Tiếng anh</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link" >Tiếng việt</a>
+        </li>
+    </ul>
+    </nav>
+
+    
+  <div class="row" >
+      <article class="col-sm-9" >
+      <div class="row poly-cart">
+        <div class="col-sm-4">
+          <div class="card text-center boder">
+            <div class="card-header">
+             GTA V
+            </div>
+            <div class="card-body">
+             <img src="iphone1.png" alt="" width="180" height="200">
+            </div>
+            <div class="btnsuaxoa">
+            <button>Sửa</button>
+            <button>Xóa</button>
+          </div >
+            <div class="card-footer">$100</div>
+          </div>
+
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-header">
+            PUBG
+          </div>
+          <div class="card-body">
+           <img src="iphone2.png" alt="" width="180" height="200">
+          </div>
+          <div class="btnsuaxoa">
+            <button>Sửa</button>
+            <button>Xóa</button>
+          </div>
+          <div class="card-footer">$103</div>
+        </div>
+
+    </div>
+    <div class="col-sm-4">
+      <div class="card text-center">
+        <div class="card-header">
+          FORNITE
+        </div>
+        <div class="card-body">
+         <img src="iphone3.png" alt="" width="180" height="200">
+        </div>
+        <div class="btnsuaxoa">
+            <button>Sửa</button>
+            <button>Xóa</button>
+          </div>
+        <div class="card-footer">FREE</div>
+      </div>
+
+  </div>
+      </div>
+      
+      </article>
+      <aside class="col-sm-3" >
+        
+        <div class="card poly-cart">
+          <div class="card-body">
+            <div class ="row">
+              <form action="">
+                <input type="text" class="form-control" placeholder="search">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card poly-cart">
+          <div class="card-header">
+            <span class="glyphicon glyphicon-th-list"></span> Thể Loại
+          </div>
+
+           <ul class="list-group list-group-flush">
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20"> Phiêu Lưu</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Chiến Thuật</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Kinh Dị</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Nhập Vai</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Bắn Súng</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Giáo Dục</li>
+            <li class="list-group-item "><img src="icon.jpg" alt="" width="20" height="20">Game Âm Nhạc</li>
+          
+            
+           </ul>
+          
+        </div>
+      </aside>
+
+  
+  </div>
+ 
+  </div>
+    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
